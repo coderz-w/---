@@ -1,0 +1,49 @@
+html,body,div,span,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Microsoft Yahei', 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+    font-size: 12px;
+    outline: 0;
+}
+body {
+    background-color: #ffffff;
+}
+ 
+a {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+ 
+a, button {
+    cursor: pointer;
+}
+ 
+ul {
+    padding: 0;
+    margin: 0;
+}
+ 
+li {
+    list-style: none;
+}
+ 
+img {
+    border: 0;
+}
+/* 滚动条样式 */
+::-webkit-scrollbar
+{
+    width: 6px;
+    background-color:#F5F5F5;
+}
+::-webkit-scrollbar-track
+{
+    background-color:#F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius:10px;
+    background-color: #484848;
+}
